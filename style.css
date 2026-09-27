@@ -1,0 +1,117 @@
+
+/* convention -- 
+
+.element-design
+
+ex:
+.text-center
+.text-justify
+.btn-red
+.btn-green
+.btn-big
+.list-inline
+.form-horizontal
+.img-rounded
+.img-circle
+
+selector{
+    propertie:value;
+}
+
+*/
+/* Colors and fonts*/
+
+body{
+    background: color #757d60;;
+    color:#2D0000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 50px;
+}
+
+h1,h2,h3{
+    color:#6D0808;
+    font-family:Courier;
+}
+
+
+a{
+    text-decoration:none;
+    color:#757d60;
+    height: 30px;
+}
+a:hover{
+    color:#6D0800;
+}
+
+
+/* customer classe */
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container{
+    width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+    width:400px;
+    }
+}
+
+
+
+.card-white{
+    background: white;
+    padding: 40px;
+    margin:20px;
+    box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-red{
+    background-color: #757d60;
+    color: #6D0800;
+    padding:12px 20px;
+    border-radius: 4px;
+}
+
+.btn-red:hover{
+    background-color: #6D0800;
+    color: #757d60;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i{
+    font-size: 50px;
+    color:#757d60;
+}
+
+.list-inline i:hover {
+    color:#6D0800
+}
+
+#introduction p{
+    margin-bottom: 40px;
+}
